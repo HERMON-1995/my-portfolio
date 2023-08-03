@@ -1,13 +1,16 @@
 import "./HomeImg.css";
 import React from 'react'
 import { Link } from 'react-router-dom';
-import IntroImg from "../assets/Home-img.jpg"
+import IntroImg from "../assets/White-smoke.mp4"
 
 const HomeImg = () => {
   return (
     <div className="home-div">
         <div className="mask">
-          <img className="intro-img" src={IntroImg} alt="IntroImg"/>
+        <video className="intro-img" autoPlay loop muted>
+          <source src={IntroImg} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
         </div>
         <div className="content">
           <p>Hello, I'm a Full-Stack developer!</p>
