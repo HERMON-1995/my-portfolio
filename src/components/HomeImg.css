@@ -39,6 +39,7 @@
 .home-div .content h1{
     font-size: 2rem;
     padding: 0.6rem 0 1.5rem;
+    letter-spacing: 0.6px;
 }
 
 .home-div .content p{
@@ -54,6 +55,5 @@
 @media screen and (max-width: 640px) {
     .home-div .content h1{
         font-size: 1.3rem;
-        letter-spacing: 0.2px;
     }
 }
