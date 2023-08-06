@@ -1,6 +1,7 @@
 import "./Footer.css";
 import React from 'react';
-import { FaHome, FaPhone, FaMailBulk, FaFacebook, FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa"
+import { FaHome, FaPhone, FaMailBulk, FaFacebook, FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -27,10 +28,18 @@ const Footer = () => {
                 <h4>About My Mindset</h4>
                 <p>I'm Not a Great Programmer, I'm Just a Good Programmer With Great Habits.👩‍💻</p>
                 <div className="social">
-                  <FaFacebook size={30} style={{ color: "#fff",marginRight: "1rem" }}/>
-                  <FaTwitter size={30} style={{ color: "#fff",marginRight: "1rem" }}/>
-                  <FaLinkedin size={30} style={{ color: "#fff",marginRight: "1rem" }}/>
-                  <FaGithub size={30} style={{ color: "#fff",marginRight: "1rem" }}/>
+                  <NavLink to="https://www.facebook.com/hermon.gebrehiwot.16/">
+                    <FaFacebook size={30} style={{ color: "#fff",marginRight: "1rem" }}/>
+                   </NavLink>
+                   <NavLink to="https://twitter.com/HerryWebDevelop">
+                    <FaTwitter size={30} style={{ color: "#fff",marginRight: "1rem" }}/>
+                    </NavLink>
+                    <NavLink to="https://www.linkedin.com/in/hermon-gebre/">
+                      <FaLinkedin size={30} style={{ color: "#fff",marginRight: "1rem" }}/>
+                    </NavLink>
+                    <NavLink to="https://github.com/HERMON-1995">
+                      <FaGithub size={30} style={{ color: "#fff",marginRight: "1rem" }}/>
+                    </NavLink>
                 </div>
             </div>
         </div>
