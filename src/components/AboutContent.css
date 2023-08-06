@@ -1,0 +1,39 @@
+.about-div {
+    width: 100%;
+    margin: 3rem 0 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    position: relative;
+    background-color: #000;
+    opacity: 0.8;
+}
+
+.about-div .left {
+   text-align: center;
+   margin: auto;
+   padding: 1rem;
+   max-width: 550px;
+}
+
+.about-div .left p {
+    margin: 1rem 0 1rem 0;
+}
+
+.about-div .right {
+    max-width: 700px;
+    padding: 0;
+}
+
+.herryimg-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.herryimg {
+    width: 100%;
+    height: 100%;
+}
