@@ -2,6 +2,7 @@
     width: 100%;
     height: 100vh;
     position: relative;
+    overflow: hidden;
 }
 
 .intro-img {
@@ -10,6 +11,7 @@
     background-size: cover;
     background-position: center;
     object-fit: cover;
+    position: fixed;
 }
 
 .mask::after {
@@ -37,8 +39,8 @@
 }
 
 .home-div .content h1{
-    font-size: 2rem;
-    padding: 0.6rem 0 1.5rem;
+    font-size: 1.4rem;
+    padding: 0.8rem 0 1.6rem;
     letter-spacing: 0.6px;
 }
 
@@ -49,10 +51,15 @@
 }
 
 .content .btn {
-    margin: 1rem 0.2rem;
+    margin: 1rem 0.6rem;
 }
 
 @media screen and (max-width: 640px) {
+    .herryHomeImg {
+        width: 40%;
+        height: 40%;
+    }
+
     .home-div .content h1{
         font-size: 1.3rem;
     }
