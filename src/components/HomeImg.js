@@ -2,6 +2,7 @@ import "./HomeImg.css";
 import React from 'react'
 import { Link } from 'react-router-dom';
 import IntroImg from "../assets/White-smoke.mp4"
+import HerryHomeImg from "../assets/Herry-home-img.png"
 
 const HomeImg = () => {
   return (
@@ -13,8 +14,10 @@ const HomeImg = () => {
         </video>
         </div>
         <div className="content">
-          <p>Hello, I'm a Full-Stack developer!</p>
-          <h1>Adept at seamlessly integrating front-end finesse and back-end proficiency to deliver innovative and efficient digital solutions.</h1>
+          <img src={HerryHomeImg} alt="Hermon" className="herryHomeImg"/>
+          <p>Hello, I'm Hermon Gebrehiwot.</p>
+          <p>Full-Stack developer!</p>
+          <h1>Welcome to my world of code, creativity, and passion for technology! With a robust expertise in crafting streamlined software applications for the international market, backed by over 1300 hours of experience, including successful mentorship of 10+ junior developers towards achieving tangible objectives within tight timelines. Proficient in React, Redux, JavaScript, Ruby on Rails, Figma, and Animation Libraries.</h1>
           <div>
             <Link to={"/Projects"} className="btn">Projects</Link>
             <Link to={"/Contact"} className="btn btn-light">Contact</Link>
