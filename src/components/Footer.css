@@ -2,6 +2,8 @@
     width: 100%;
     padding: 6rem 0;
     background-color: rgba(19, 19, 19, 0.8);
+    position: relative;
+    z-index: 1;
 }
 
 .footer-div {
