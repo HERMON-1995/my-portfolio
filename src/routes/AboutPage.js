@@ -8,7 +8,7 @@ const AboutPage = () => {
   return (
     <div>
       <NavBar />
-      <PagesImg heading="ABOUT." text="Meet Hermon Gebrehiwot: Crafting Inspiring Full Stack Development Experiences."/>
+      <PagesImg heading="ABOUT." text="Meet Hermon Gebre bridging Sales and Full-Stack Development: Creating a Seamless Experience."/>
       <AboutContent />
       <Footer />
     </div>
