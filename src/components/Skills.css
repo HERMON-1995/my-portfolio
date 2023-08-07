@@ -1,0 +1,40 @@
+.skills-heading {
+    text-align: center;
+    padding: 4rem 0 2rem 0 ;
+}
+
+.hard-skills-div, .soft-skills-div {
+    max-width: 900px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 70px;
+    padding: 1rem 0rem 4rem 0;
+}
+
+.skills-card {
+    background: #1a1919;
+    padding: 0.7rem 0.7rem;
+}
+
+.skillsimg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1000px) {
+    .hard-skills-div, .soft-skills-div {
+        max-width: 70%;
+        margin: auto;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .hard-skills-div, .soft-skills-div {
+        max-width: 50%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}
