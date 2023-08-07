@@ -17,6 +17,11 @@
     padding: 1.2rem 1rem;
 }
 
+.project-card:hover {
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
 .project-card video {
     width: 100%;
 }
